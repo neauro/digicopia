@@ -177,3 +177,14 @@ h2 {
       position:absolute;
       left:1rem;
     } 
+  #bottom p {
+    text-align:center;
+    color:#E4E4E4;
+    margin: 100px auto;
+    font-size:20pt;
+    font-family:"Podkova", serif;
+  }
+    #bottom p a {
+      text-decoration:none;
+      color:#E4E4E4;
+    }
