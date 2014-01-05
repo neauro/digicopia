@@ -18,10 +18,7 @@ h1 {
   display:inline-block;
   color:#fff;
   font-weight:normal;
-  position:relative;
-  left:20px;
   font-size:32pt;
-  top:-7px; 
 }
 h2 {
   font-family:"Lato",sans-serif;
@@ -50,6 +47,11 @@ h2 {
     #logo {
       width:40px;
       height:40px;
+    }
+    .left h1 {
+      position:relative;
+      left:20px;
+      top:-7px; 
     }
   #menu { 
     position:absolute;
@@ -109,7 +111,7 @@ h2 {
   background-color:#7a7a7a;
   width:100%;
   position:absolute;
-  bottom:-24rem;
+  bottom:-23rem;
   padding-top:30px;
   min-height:600px;
 
@@ -118,5 +120,11 @@ h2 {
     color:#e4e4e4;
     text-align:center;
     display:block;
+  }
+  #bottom h2 {
+    font-size:1rem;
+    font-family:"Lato",sans-serif;
+    margin:65px auto;
+    color:#e4e4e4;
   }
 
