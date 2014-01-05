@@ -207,8 +207,37 @@ h2 {
   #like p {
     color:#868789;
     width:50%;
+    margin:0px auto;
     margin-top:35px;
     font-size:20pt;
-    margin-bottom:65px;
     font-family: "Podkova", serif;
   }
+  #circles {
+    margin:0px auto;
+    width:750px;
+    margin-top:65px;
+    padding-bottom:100px;
+  }
+    .circle {
+      -webkit-border-radius:50%;
+              border-radius:50%;
+      background-color:#51C4F2;
+      height:80px;
+      margin-left:4rem;
+      width:80px;
+      display:inline-block;
+      background-size: 90% 90%;
+      background-position: 50% 50%;
+    }
+      #linked-in {
+        background-image:url("../images/linkedin-128.png");
+      }
+      #twitter {
+        background-image:url("../images/twitter-128.png");
+      }
+      #wordpress {
+        background-image:url("../images/wordpress-128.png");
+      }
+      #skype {
+        background-image:url("../images/skype-128.png");
+      }
