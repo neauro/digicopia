@@ -126,5 +126,8 @@ h2 {
     font-family:"Lato",sans-serif;
     margin:65px auto;
     color:#e4e4e4;
+    width:80%;
+    line-height:1.5rem;
+    text-align:center;
   }
 
