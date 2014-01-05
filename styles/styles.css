@@ -111,10 +111,14 @@ h2 {
   background-color:#7a7a7a;
   width:100%;
   position:absolute;
-  bottom:-23rem;
+  top:87%;
   padding-top:30px;
   min-height:600px;
-
+  -webkit-transition: all 0.1s linear;
+     -moz-transition: all 0.1s linear;
+      -ms-transition: all 0.1s linear;
+       -o-transition: all 0.1s linear;
+          transition: all 0.1s linear; 
 }
   #bottom h1 {
     color:#e4e4e4;
@@ -188,3 +192,23 @@ h2 {
       text-decoration:none;
       color:#E4E4E4;
     }
+
+/* "like what you see?" part */
+#like {
+  background-color:#ececed;
+  padding-top:100px;
+  width:100%;
+}
+  #like h1 {
+    color:#868789;
+    font-family: "Bebas Neue", sans-serif;
+    font-size:2rem;
+  }
+  #like p {
+    color:#868789;
+    width:50%;
+    margin-top:35px;
+    font-size:20pt;
+    margin-bottom:65px;
+    font-family: "Podkova", serif;
+  }
