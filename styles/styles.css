@@ -26,6 +26,23 @@ h2 {
   color:#7a7a7a;
   font-weight:normal;
 }
+.menu li {
+  display:inline-block;
+}
+  .menu li a {
+    text-transform:uppercase;
+    color:#fff;
+    text-decoration:none;
+    margin-right:2rem;
+    -webkit-transition: color 0.1s linear;
+       -moz-transition: color 0.1s linear;
+        -ms-transition: color 0.1s linear;
+         -o-transition: color 0.1s linear;
+            transition: color 0.1s linear;
+  }
+    .menu li a:hover {
+      color:#03acef;
+    }
 
 
 /* navigation */
@@ -53,29 +70,12 @@ h2 {
       left:20px;
       top:-7px; 
     }
-  #menu { 
+  #nav .menu { 
     position:absolute;
     right:0px;
     top:30%;
     right:4rem;
   }
-    #menu li {
-      display:inline-block;
-    }
-      #menu li a {
-        text-transform:uppercase;
-        color:#fff;
-        text-decoration:none;
-        margin-right:2rem;
-        -webkit-transition: color 0.1s linear;
-           -moz-transition: color 0.1s linear;
-            -ms-transition: color 0.1s linear;
-             -o-transition: color 0.1s linear;
-                transition: color 0.1s linear;
-      }
-        #menu li a:hover {
-          color:#03acef;
-        }
 
 
 /* 'over the fold' part */
@@ -154,11 +154,11 @@ h2 {
       position:relative;
       left:3rem;
       top:0.7rem;
-      -webkit-transition: all 0.1s linear;
-         -moz-transition: all 0.1s linear;
-          -ms-transition: all 0.1s linear;
-           -o-transition: all 0.1s linear;
-              transition: all 0.1s linear;
+      -webkit-transition: all 0.1s ease;
+         -moz-transition: all 0.1s ease;
+          -ms-transition: all 0.1s ease;
+           -o-transition: all 0.1s ease;
+              transition: all 0.1s ease;
     }
       .work-bit:hover .banner {
         left:1rem;
@@ -258,3 +258,37 @@ h2 {
         #skype:hover {
           background-color:#00AFF0;
         }
+
+/* footer */
+#footer {
+  background-color:#3A3A3A;
+  min-height:250px;
+  border-top:4px solid #03acef;
+  height:100%;
+
+}
+  #footer .menu {
+    width:750px;
+    margin:0px auto;
+    margin-top:65px;
+    margin-bottom:65px;
+  }
+    #footer .menu li {
+      margin-left:2rem;
+      font-size:1rem;
+      text-transform:uppercase;
+    }
+  #copy {
+    font-family:"Lato", sans-serif;
+    width:50%;
+  }
+    .desc {
+      color:#959596;
+      font-size:1rem;
+    }
+    .desc2 {
+      text-transform:lowercase;
+      color:#D6D6D6;
+      font-size:1rem;
+    }
+
