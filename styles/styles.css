@@ -130,4 +130,16 @@ h2 {
     line-height:1.5rem;
     text-align:center;
   }
+  #work {
+    width:90%;
+    margin:0px auto; 
+  }
+  .work-bit {
+    background-color:#fff;
+    min-width:220px;
+    height:240px;
+    width:24%;
+    display:inline-block;
+    margin-left:5px;
+  }
 
