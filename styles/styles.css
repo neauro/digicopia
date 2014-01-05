@@ -150,7 +150,15 @@ h2 {
       position:relative;
       left:3rem;
       top:0.7rem;
+      -webkit-transition: all 0.1s linear;
+         -moz-transition: all 0.1s linear;
+          -ms-transition: all 0.1s linear;
+           -o-transition: all 0.1s linear;
+              transition: all 0.1s linear;
     }
+      .work-bit:hover .banner {
+        left:1rem;
+      }
       .banner .triangle {
         position:absolute;
         top:0;
