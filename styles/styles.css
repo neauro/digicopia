@@ -45,12 +45,8 @@ h2 {
     }
 #rwd-menu {
   display:none;
-  position:absolute;
   height:40px;
   width:40px;
-  right:1rem;
-  top:1rem;
-  color:#fff;
   background-color:#03ACEF;
 }
   #rwd-menu:hover {
@@ -334,8 +330,13 @@ h2 {
   #nav .menu li {
     display:none;
   }
-  #rwd-menu,
+  #rwd-menu {
+    display:inline-block;
+  }
   #nav .menu#mobile {
     display:block;
+  }
+  #logo {
+    display:none;
   }
 }
