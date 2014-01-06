@@ -251,6 +251,9 @@ h2 {
     margin-top:65px;
     padding-bottom:100px;
   }
+    #circles div {
+      display:inline;
+    }
     .circle {
       -webkit-border-radius:50%;
               border-radius:50%;
@@ -347,10 +350,22 @@ h2 {
     margin-top:30px !important;
     margin-bottom:75px !important;
   }
+  #circles div {
+    display:block;
+    margin:0px auto;
+    width:55%;
+    margin-bottom:35px; 
+  }
 }
 @media (min-width:591px) and (max-width:850px) {
   .work-bit {
     width:49%;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+    margin-left: 2rem; 
   }
 }
 @media (min-width:0px) and (max-width:590px) {
@@ -363,5 +378,21 @@ h2 {
     .work-bit .banner {
       left:1rem;
     }
+  #like h1 {
+    width: 80%;
+    margin: 0px auto;
+  }
 
+}
+@media (min-width:0px) and (max-width:750px) {
+  #circles {
+    padding-bottom: 70px;
+    width:100%;
+  }
+  #footer .menu {
+    width:100%;
+  }
+  #footer .menu li {
+    margin-left: 1rem;
+  } 
 }
