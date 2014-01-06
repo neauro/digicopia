@@ -1,5 +1,7 @@
 $(document).ready(function() {
+  var menu = #("#mobile");
+
   $("#rwd-menu").on("click", function() {
-    alert("clicked");
+    menu.toggleClass("open");
   });
 });
