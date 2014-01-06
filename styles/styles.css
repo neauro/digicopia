@@ -348,8 +348,20 @@ h2 {
     margin-bottom:75px !important;
   }
 }
-@media (min-width:0px) and (max-width:850px) {
+@media (min-width:591px) and (max-width:850px) {
   .work-bit {
     width:49%;
   }
+}
+@media (min-width:0px) and (max-width:590px) {
+  .work-bit {
+    display:block;
+    width:220px;
+    margin:0px auto;
+    margin-bottom:50px;
+  }
+    .work-bit .banner {
+      left:1rem;
+    }
+
 }
