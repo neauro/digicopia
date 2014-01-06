@@ -362,8 +362,6 @@ h2 {
     width:49%;
   }
   .circle {
-    width: 100px;
-    height: 100px;
     margin-right: 1rem;
     margin-left: 2rem; 
   }
@@ -381,6 +379,12 @@ h2 {
   #like h1 {
     width: 80%;
     margin: 0px auto;
+  }
+  #circles div {
+    width:75%;
+  }
+  .menu li a {
+    margin-right:1rem;
   }
 
 }
