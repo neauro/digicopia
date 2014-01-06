@@ -374,14 +374,6 @@ h2 {
   }
 
 }
-@media (min-width:0px) and (max-width:750px) {
-  #footer .menu {
-    width:100%;
-  }
-  #footer .menu li {
-    margin-left: 1rem;
-  } 
-}
 
 /* rwd for just the circles */
 @media (min-width:0px) and (max-width:710px) {
@@ -397,5 +389,36 @@ h2 {
   .circle {
     margin-left: 1.7rem;
     margin-right: 1.7rem;
+  }
+  
+  /* footer styles */
+  #footer .menu li a {
+    margin-right:1rem;
+  }
+}
+
+/* rwd for footer styles */
+@media (min-width:0px) and (max-width:750px) {
+  #footer .menu {
+    width:100%;
+  }
+}
+@media (min-width:0px) and (max-width:500px) {
+  #footer .menu li {
+    width: 109%;
+    display: block;
+    border-bottom: 1px solid #03ACEF;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    padding-left:2rem;
+  }
+  #copy {
+    width:75%;
+  }
+}
+@media (min-width:501px) and (max-width:570px) {
+  #footer .menu li a {
+    margin-right:0rem;
   }
 }
