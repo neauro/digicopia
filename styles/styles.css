@@ -248,11 +248,12 @@ h2 {
     font-family: "Podkova", serif;
   }
   #circles {
+    width:686px;
     margin:0px auto;
     margin-top:65px;
     padding-bottom:100px;
   }
-  #circles td {
+  #circles div {
     border:1px solid red;
     display:inline;
     width:2rem;
@@ -390,6 +391,23 @@ h2 {
 }
 
 /* rwd for just the circles */
+@media (min-width:0px) and (max-width:710px) {
+  #circles {
+    width:100%;
+  }
+  #circles div {
+    display:block;
+    border:1px solid blue;
+    width:323px;
+    margin:0px auto;
+    margin-bottom:35px;
+  }
+  .circle {
+    border:1px solid blue;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+  }
+}
 /*
 @media (min-width:0px) and (max-width:650px) {
   #circles {
