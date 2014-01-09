@@ -15,7 +15,7 @@ h1 {
   font-size:32pt;
 }
 h2 {
-  font-family:"Lato",sans-serif;
+  font-family:"Raleway",sans-serif;
   font-size:24pt; 
   color:#7a7a7a;
   font-weight:normal;
@@ -155,7 +155,7 @@ h2 {
   }
   #bottom h2 {
     font-size:1rem;
-    font-family:"Lato",sans-serif;
+    font-family:"Raleway",sans-serif;
     margin:65px auto;
     color:#e4e4e4;
     width:80%;
@@ -314,7 +314,7 @@ h2 {
       text-transform:uppercase;
     }
   #copy {
-    font-family:"Lato", sans-serif;
+    font-family:"Raleway", sans-serif;
     width:50%;
   }
     .desc {
