@@ -32,7 +32,7 @@ h2 {
     text-transform:uppercase;
     color:#fff;
     text-decoration:none;
-    margin-right:2rem;
+    margin-right:2em;
     -webkit-transition: color 0.1s linear;
        -moz-transition: color 0.1s linear;
         -ms-transition: color 0.1s linear;
@@ -41,6 +41,7 @@ h2 {
   }
     .menu li a:hover {
       color:#03acef;
+      cursor:pointer;
     }
 #rwd-menu {
   display:none;
@@ -83,7 +84,7 @@ h2 {
     position:absolute;
     right:0px;
     top:30%;
-    right:0.5rem;
+    right:0.5em;
     -webkit-transition: all 0.1s ease;
        -moz-transition: all 0.1s ease;
         -ms-transition: all 0.1s ease;
@@ -91,6 +92,7 @@ h2 {
             transition: all 0.1s ease;
   }
     #nav .menu#mobile {
+      margin-top:0.8em;
       position:static;
       display:none;
       height:0px;
@@ -102,10 +104,10 @@ h2 {
               transition: all 0.3s ease;
     }
       #mobile.open {
-        height:80px !important;
+        height:23px !important;
       }
     #nav .menu#mobile li {
-      display:block;
+      display:inline-block;
     }
 
 
@@ -132,7 +134,7 @@ h2 {
       display:block;
     }
     #logo-area h2 {
-      margin-top:0.5rem;
+      margin-top:0.5em;
       text-align:center;
       font-family:"Raleway";
       color:#868789;
@@ -159,12 +161,12 @@ h2 {
     display:block;
   }
   #bottom h2 {
-    font-size:1rem;
+    font-size:1em;
     font-family:"Raleway",sans-serif;
     margin:65px auto;
     color:#e4e4e4;
     width:80%;
-    line-height:1.5rem;
+    line-height:1.5em;
     text-align:center;
   }
   #work {
@@ -184,8 +186,8 @@ h2 {
       background-color:#e4e4e4;
       height:72px;
       position:relative;
-      left:3rem;
-      top:0.7rem;
+      left:3em;
+      top:0.7em;
       -webkit-transition: all 0.1s ease;
          -moz-transition: all 0.1s ease;
           -ms-transition: all 0.1s ease;
@@ -193,7 +195,7 @@ h2 {
               transition: all 0.1s ease;
     }
       .work-bit:hover .banner {
-        left:1rem;
+        left:1em;
       }
       .banner .triangle {
         position:absolute;
@@ -211,7 +213,7 @@ h2 {
       font-family: Bebas, "Impact", sans-serif;
       font-size:48pt;
       position:absolute;
-      left:1rem;
+      left:1em;
     } 
   #bottom p {
     text-align:center;
@@ -236,7 +238,7 @@ h2 {
   #like h1 {
     color:#868789;
     font-family: Bebas, "Impact", sans-serif;
-    font-size:2rem;
+    font-size:2em;
   }
   #like p {
     color:#868789;
@@ -254,7 +256,7 @@ h2 {
   }
   #circles div {
     display:inline;
-    width:2rem;
+    width:2em;
   }
     .circle {
       -webkit-border-radius:50%;
@@ -271,8 +273,8 @@ h2 {
           -ms-transition: background-color 0.1s linear;
            -o-transition: background-color 0.1s linear;
               transition: background-color 0.1s linear;
-      margin-left:2rem;
-      margin-right:2rem;
+      margin-left:2em;
+      margin-right:2em;
     }
       #linked-in {
         background-image:url("../images/linkedin-128.png");
@@ -314,8 +316,8 @@ h2 {
     margin-bottom:65px;
   }
     #footer .menu li {
-      margin-left:2rem;
-      font-size:1rem;
+      margin-left:2em;
+      font-size:1em;
       text-transform:uppercase;
     }
   #copy {
@@ -324,12 +326,12 @@ h2 {
   }
     .desc {
       color:#959596;
-      font-size:1rem;
+      font-size:1em;
     }
     .desc2 {
       text-transform:lowercase;
       color:#D6D6D6;
-      font-size:1rem;
+      font-size:1em;
     }
 
 /* responsiveness */
@@ -368,14 +370,14 @@ h2 {
     margin-bottom:50px;
   }
     .work-bit .banner {
-      left:1rem;
+      left:1em;
     }
   #like h1 {
     width: 80%;
     margin: 0px auto;
   }
   .menu li a {
-    margin-right:1rem;
+    margin-right:1em;
   }
 
 }
@@ -392,13 +394,13 @@ h2 {
     margin-bottom:35px;
   }
   .circle {
-    margin-left: 1.7rem;
-    margin-right: 1.7rem;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
   }
   
   /* footer styles */
   #footer .menu li a {
-    margin-right:1rem;
+    margin-right:1em;
   }
 }
 
@@ -411,12 +413,12 @@ h2 {
 @media (min-width:0px) and (max-width:500px) {
   #footer .menu li {
     width: 109%;
-    display: block;
+    display: inline-block;
     border-bottom: 1px solid #03ACEF;
-    padding-bottom: 2rem;
-    margin-top: 2rem;
-    margin-left: -2rem;
-    padding-left:2rem;
+    padding-bottom: 2em;
+    margin-top: 2em;
+    margin-left: -2em;
+    padding-left:2em;
   }
   #copy {
     width:75%;
@@ -424,6 +426,6 @@ h2 {
 }
 @media (min-width:501px) and (max-width:570px) {
   #footer .menu li a {
-    margin-right:0rem;
+    margin-right:0em;
   }
 }
