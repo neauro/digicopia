@@ -1,4 +1,9 @@
 /* overall styles */
+@font-face {
+  font-family: Bebas;
+  src: url("../fonts/BebasNeue.ttf");
+}
+
 * {
   box-sizing:border-box;
   margin:0;
@@ -203,7 +208,7 @@ h2 {
     .work-bit h1 {
       text-transform:uppercase;
       color:#7a7a7a !important;
-      font-family: "Bebas Neue", sans-serif;
+      font-family: Bebas, "Impact", sans-serif;
       font-size:48pt;
       position:absolute;
       left:1rem;
@@ -217,7 +222,7 @@ h2 {
   }
     #bottom p a {
       text-decoration:none;
-      color:#E4E4E4;
+      color:#03acef;
     }
 
 /* "like what you see?" part */
@@ -230,7 +235,7 @@ h2 {
 }
   #like h1 {
     color:#868789;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: Bebas, "Impact", sans-serif;
     font-size:2rem;
   }
   #like p {
