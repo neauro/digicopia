@@ -45,9 +45,8 @@ h2 {
     }
 #rwd-menu {
   display:none;
-  height:40px;
-  width:40px;
-  background-color:#03ACEF;
+  height:35px;
+  width:35px;
 }
   #rwd-menu:hover {
     cursor:pointer;
@@ -67,7 +66,7 @@ h2 {
   .left {
     position:relative;
     left:60px;
-    top:20px;
+    top:10px;
     display:inline-block;
   }
     #logo {
@@ -79,6 +78,11 @@ h2 {
       left:20px;
       top:-7px; 
       margin-bottom:25px;
+    }
+    .header {
+      position: relative;
+      top: 6px;
+      left: 5px;
     }
   #nav .menu { 
     position:absolute;
@@ -300,6 +304,12 @@ h2 {
         #skype:hover {
           background-color:#00AFF0;
         }
+      #flickr {
+        background-image:url("../images/flickr-128.png");
+      }
+        #flickr:hover {
+          background-color:#0063DB;
+        }
 
 /* footer */
 #footer {
@@ -341,6 +351,10 @@ h2 {
   }
   #rwd-menu {
     display:inline-block;
+  }
+  .left {
+    top: -7px;
+    margin-left: 5px; 
   }
   #nav .menu#mobile {
     display:block;
