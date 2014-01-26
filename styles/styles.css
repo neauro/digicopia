@@ -227,8 +227,7 @@ h2 {
     font-family:"Podkova", serif;
   }
     #bottom p a {
-      text-decoration:none;
-      color:#03acef;
+      color: #C2C2C2;
     }
 
 /* "like what you see?" part */
@@ -251,6 +250,10 @@ h2 {
     margin-top:35px;
     font-size:20pt;
     font-family: "Podkova", serif;
+  }
+  #like p a {
+    text-decoration:none;
+    color:#03ACEF;
   }
   #circles {
     width:686px;
