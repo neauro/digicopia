@@ -164,6 +164,9 @@ h2 {
     text-align:center;
     display:block;
   }
+    #my-name {
+      font-family: Bebas, "Impact", sans-serif;
+    }
   #bottom h2 {
     font-size:1em;
     font-family:"Raleway",sans-serif;
@@ -419,7 +422,7 @@ h2 {
   #footer .menu li a {
     margin-right:1em;
   }
-}
+} 
 
 /* rwd for footer styles */
 @media (min-width:0px) and (max-width:750px) {
