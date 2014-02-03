@@ -9,12 +9,11 @@ body {
   width:100%;
   padding-bottom:60px;   /* Height of the footer */
   margin-top:5em;
-  position:relative;
   height:100%;
 }
   #p-left {
     /* border:1px solid red; */
-    display:inline-block;
+    float:left;
     width:220px;
   }
     .back {
@@ -71,10 +70,8 @@ body {
           }
   #p-contents {
     border: 1px dotted red;
-    display:inline-block;
+    float:left;
     /* border:1px solid blue; */
-    position:absolute;
-    top:0px;
     width:650px;
     margin-left:1em;
   }
@@ -108,13 +105,10 @@ body {
 #container {
   border:2px solid green;
   min-height:100%;
-  position:relative;
 }
 #footer {
   height:200px;
   clear:both;
-  position:absolute;
-  bottom:0;
   width:100%;
   background:#6cf;
 }
