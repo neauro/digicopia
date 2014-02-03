@@ -48,3 +48,14 @@
   margin-left:3%;
   margin-top:2%;
 }
+  .screenshot {
+    height:100%;
+    width:100%;
+    background-size:cover;
+  }
+  .carousel-inner {
+    height:100%;
+  }
+  #carousel .item {
+    height:100%;
+  }
