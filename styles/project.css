@@ -1,16 +1,18 @@
 /* project page styles */
 body {
   background-color:#ECECED;
+  height:100%;
 }
 
 #project {
+  padding:10px;
+  padding-bottom:60px;   /* Height of the footer */
   margin-top:5em;
-  border:1px solid green;
   position:relative;
-  left:5rem;
+  padding-left:5rem;
 }
   #p-left {
-    border:1px solid red;
+    /* border:1px solid red; */
     display:inline-block;
     width:25%;
     max-width:220px;
@@ -51,7 +53,7 @@ body {
           color:#fff;
           padding-top: 10px;
           padding-bottom: 10px;
-          padding-left: 10px;
+          padding-left: 20px;
           display:block;
           text-decoration:none;
         }
@@ -69,23 +71,25 @@ body {
           }
   #p-contents {
     display:inline-block;
-    border:1px solid blue;
+    /* border:1px solid blue; */
     position:absolute;
     top:0px;
     width:70%;
     max-width:650px;
-    margin-left:0.5em;
+    margin-left:1em;
   }
     .p-header {
       border-left:6px solid #03acef;
       padding-left:0.5em;
-      margin-bottom:2em;
+      margin-bottom:1.5em;
     }
       .p-header h3 {
         font-size:16pt;
+        font-weight:lighter;
       }
       .p-header h4 {
         font-size:24pt;
+        font-weight:lighter;
       }
     .p-img {
       width:100%;
@@ -98,4 +102,19 @@ body {
       width:100%;
       min-height:120px;
       background-color:#CECECE; 
+      margin-bottom:6em;
     }
+
+#container {
+  border:1px solid red;
+  min-height:100%;
+  position:relative;
+}
+#footer {
+  height:200px;
+  clear:both;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background:#6cf;
+}
