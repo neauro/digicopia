@@ -8,6 +8,34 @@
 .p-slider {
   background-color:#CECECE; 
   width:100%;
+  position:relative;
   min-height:600px;
   margin-bottom:3em;
+  min-width:940px;
+}
+  .p-slider .p-img {
+    width:70%;
+    height:550px;
+    border:1px solid #222;
+    float:left;
+    margin-left:3%;
+    margin-top:2%;
+  }
+  .p-slider .p-desc {
+    border:1px solid #222;
+    float:left;
+    margin-left:2%;
+    margin-top:2%;
+    width:23%;
+    min-height:375px;
+  }
+
+.p-header {
+  position: relative;
+  left: 2em;
+  padding-left: 1em;
+  display: inline-block;
+}
+.back {
+  float:left;
 }
