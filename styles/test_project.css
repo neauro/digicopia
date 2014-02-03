@@ -1,0 +1,13 @@
+/* test project */
+#indiv-project {
+  margin:0px auto;
+  margin-top:5em;
+  width:80%;
+  min-width:600px;
+}
+.p-slider {
+  background-color:#CECECE; 
+  width:100%;
+  min-height:600px;
+  margin-bottom:3em;
+}
