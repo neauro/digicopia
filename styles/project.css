@@ -100,6 +100,10 @@ body {
       background-color:#CECECE; 
       margin-bottom:6em;
     }
+      .p-desc a {
+        color:#03acef;
+        text-decoration:none; 
+      }
 
 #container {
   padding-top:1em;
