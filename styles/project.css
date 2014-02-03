@@ -5,17 +5,17 @@ body {
 }
 
 #project {
-  padding:10px;
+  border:1px solid red;
+  width:100%;
   padding-bottom:60px;   /* Height of the footer */
   margin-top:5em;
   position:relative;
-  padding-left:5rem;
+  height:100%;
 }
   #p-left {
     /* border:1px solid red; */
     display:inline-block;
-    width:25%;
-    max-width:220px;
+    width:220px;
   }
     .back {
       text-align: right;
@@ -70,12 +70,12 @@ body {
             border-left:5px solid #6CA855;
           }
   #p-contents {
+    border: 1px dotted red;
     display:inline-block;
     /* border:1px solid blue; */
     position:absolute;
     top:0px;
-    width:70%;
-    max-width:650px;
+    width:650px;
     margin-left:1em;
   }
     .p-header {
@@ -106,7 +106,7 @@ body {
     }
 
 #container {
-  border:1px solid red;
+  border:2px solid green;
   min-height:100%;
   position:relative;
 }
