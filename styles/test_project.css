@@ -39,3 +39,12 @@
 .back {
   float:left;
 }
+
+/* carousel */
+#carousel {
+  width:70%;
+  height:550px;
+  float:left;
+  margin-left:3%;
+  margin-top:2%;
+}
