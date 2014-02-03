@@ -13,16 +13,10 @@
   margin-bottom:3em;
   min-width:940px;
 }
-  .p-slider .p-img {
-    width:70%;
-    height:550px;
-    border:1px solid #222;
-    float:left;
-    margin-left:3%;
-    margin-top:2%;
-  }
   .p-slider .p-desc {
-    border:1px solid #222;
+    font-size: 12pt;
+    line-height: 12pt;
+    border:1px solid #7A7A7A;
     float:left;
     margin-left:2%;
     margin-top:2%;
