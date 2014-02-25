@@ -40,6 +40,7 @@ body {
       }
     #p-nav {
       clear:both; 
+      margin-bottom:3em;
     }
       #p-nav li {
         list-style:none;
