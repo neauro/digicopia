@@ -75,8 +75,8 @@ body {
           }
   #p-contents {
     float:left;
-    /* border:1px solid blue; */
-    width:650px;
+    min-width:650px;
+    width:76%;
     margin-left:1em;
   }
     .p-header {
@@ -127,3 +127,17 @@ body {
 #copy {
     margin:0px auto;
   }
+
+.portfolio-bit {
+  /* three per row
+  width:30%;
+  margin-left:2%;
+  */
+  /* four per row */
+  width:22%;
+  margin-left:1%;
+  float:left;
+  height:300px;
+  background-color:#CECECE; 
+  margin-bottom:45px;
+}
