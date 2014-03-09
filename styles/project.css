@@ -1,4 +1,8 @@
 /* project page styles */
+@font-face {
+  font-family: Bebas;
+  src: url("../fonts/BebasNeue.ttf");
+}
 body {
   background-color:#ECECED;
   height:100%;
@@ -76,6 +80,9 @@ body {
     margin-left:1em;
   }
     .p-header {
+      font-family:"Bebas", "Impact", sans-serif;
+      text-transform:uppercase;
+      font-size:48px;
       border-left:6px solid #03acef;
       padding-left:0.5em;
       margin-bottom:1.5em;
