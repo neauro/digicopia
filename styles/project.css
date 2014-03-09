@@ -64,15 +64,27 @@ body {
           #ux-nav {
             border-left:5px solid #51C4F2;
           }
+            #ux-nav.active {
+              background-color: #51C4F2;
+            }
           #id-nav {
             border-left:5px solid #EB1675;
           }
+            #id-nav.active {
+              background-color:#EB1675;
+            }
           #vcd-nav {
             border-left:5px solid #FF7B2E;
           }
+            #vcd-nav.active {
+              background-color: #FF7B2E;
+            }
           #art-nav {
             border-left:5px solid #6CA855;
           }
+            #art-nav.active {
+              background-color: #6CA855;
+            }
   #p-contents {
     float:left;
     min-width:650px;
@@ -98,11 +110,13 @@ body {
     .p-img {
       width:100%;
       height:511px;
+      max-width:650px;
       background-color:#CECECE; 
       margin-bottom:0.5em;
     }
     .p-desc {
       padding:0.5em;
+      max-width:650px;
       width:100%;
       min-height:120px;
       background-color:#CECECE; 
