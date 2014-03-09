@@ -1,4 +1,7 @@
 /* test project */
+#nav .left {
+  top:-10px;
+}
 #indiv-project {
   margin:0px auto;
   margin-top:5em;
