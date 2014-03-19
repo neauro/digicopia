@@ -108,7 +108,7 @@ h2 {
               transition: all 0.3s ease;
     }
       #mobile.open {
-        height:23px !important;
+        height:37px !important;
       }
     #nav .menu#mobile li {
       display:inline-block;
@@ -358,8 +358,8 @@ h2 {
   #rwd-menu {
     display:inline-block;
   }
-  .left {
-    top: -7px;
+  #nav .left {
+    top: -4px;
     margin-left: 5px; 
   }
   #nav .menu#mobile {
