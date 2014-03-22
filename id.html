@@ -16,12 +16,17 @@
 
 <body>
   <div id="nav">
-    <ul id="mobile" class="menu">
-      <li><a class="go-home">Home</a></li>
-      <li><a class="go-work">Work</a></li>
-      <li><a class="go-about">About</a></li>
-      <li><a href="ndwdesign.wordpress.com" target="_blank">Blog</a></li>
-    </ul>
+    <div id="mobile" class="menu">
+      <a class="go-home">Home</a>
+      <a class="go-work">Work</a>
+      <a class="sub active" href="ux.html">UX</a>
+      <a class="sub" href="id.html">ID</a>
+      <a class="sub" href="vcd.html">VCD</a>
+      <a class="sub" href="art.html">Art</a>
+      <a class="go-about">About</a>
+      <a href="ndwdesign.wordpress.com" target="_blank">Blog</a>
+      <p class="copy"><span class="desc">Site design, brand, and logo &copy; 2013 Mathius Walsh.</span> <span class="desc2">This site was designed by hand by Mathius Walsh.</span></p>
+    </div>
     <div class="left">
       <img id="rwd-menu" src="images/mobile-menu.png"/>
       <a href="index.html">
@@ -30,7 +35,7 @@
       <img class="header" src="images/header.png" alt="Digicopia word logo"/></a>
     </div>
     <ul class="menu">
-      <li><a class="go-work">Work</a></li>
+      <li><a class="go-contact">Contact</a></li>
       <li><a class="go-about">About</a></li>
       <li><a href="" target="_blank">Blog</a></li>
     </ul>
@@ -41,17 +46,21 @@
       <div id="p-left">
         <a class="back" href="index.html"><div class="triangle"></div>BACK</a>
         <ul id="p-nav">
-          <li><a id="ux-nav" href="ux.html">UX</a></li>
-          <li><a id="id-nav" class="active" href="id.html">ID</a></li>
+          <li><a id="ux-nav" class="active" href="ux.html">UX</a></li>
+          <li><a id="id-nav" href="id.html">ID</a></li>
           <li><a id="vcd-nav" href="vcd.html">VCD</a></li>
           <li><a id="art-nav" href="art.html">Art</a></li>
         </ul>
       </div>
 
       <div id="p-contents">
-        <div class="p-header">
-          <h3>Portfolio</h3>
-          <h4>Interaction Design</h4>
+        <div id="p-header-wrapper">
+          <a href=""><img class="rwd-link prev" src="images/left.png" alt="Next page"></a>
+          <div class="p-header">
+            <h3>Portfolio</h3>
+            <h4>User Experience</h4>
+          </div>
+          <a href=""><img class="rwd-link next" src="images/right.png" alt="Next page"></a>
         </div>
 
         <a href="test_project.html" class="portfolio-bit">
@@ -81,7 +90,7 @@
           <li><a class="go-about">About</a></li>
           <li><a href="ndwdesign.wordpress.com" target="_blank">Blog</a></li>
         </ul>
-        <p id="copy"><span class="desc">Site design, brand, and logo &copy; 2013 Mathius Walsh.</span> <span class="desc2">This site was designed by hand by Mathius Walsh.</span></p>
+        <p class="copy"><span class="desc">Site design, brand, and logo &copy; 2013 Mathius Walsh.</span> <span class="desc2">This site was designed by hand by Mathius Walsh.</span></p>
       </div>
 
     </div> <!-- end of #project -->
