@@ -202,12 +202,20 @@ body {
     display:none;
   }
   #p-contents {
-    width:100%;
+    width:97%;
+    margin-left:3%;
   }
 }
 
-@media (min-width:0px) and (max-width:1056px) {
+@media (min-width:551px) and (max-width:1056px) {
   .portfolio-bit {
     width:30%;
+  }
+}
+
+/* v small */
+@media (min-width:0px) and (max-width:550px) {
+  .portfolio-bit {
+    width:47%;
   }
 }

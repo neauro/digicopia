@@ -485,3 +485,10 @@ h2 {
     margin-right:0em;
   }
 }
+
+/* v small */
+@media (min-width:0px) and (max-width:550px) {
+  .portfolio-bit {
+    width:43%;
+  }
+}
