@@ -144,7 +144,7 @@ h2 {
         border-left: 47px solid #03ACEF;
         padding-left: 45px;
       }
-      #mobile #copy {
+      #mobile .copy {
         width:100%;
         font-size: 11pt;
         padding-left: 50px;
@@ -373,7 +373,7 @@ h2 {
       font-size:1em;
       text-transform:uppercase;
     }
-  #copy {
+  .copy {
     font-family:"Raleway", sans-serif;
     width:50%;
   }
@@ -476,7 +476,7 @@ h2 {
     margin-left: -2em;
     padding-left:2em;
   }
-  #copy {
+  .copy {
     width:75%;
   }
 }
