@@ -2,9 +2,11 @@ $(document).ready(function() {
   var menu = $("#mobile");
   var scroll_speed = 1500;
   var offset = -($("#nav").height()*4);
+  var nav = $("#nav");
 
   $("#rwd-menu").on("click", function() {
     menu.toggleClass("open");
+    nav.toggleClass("open");
   });
 
   $(".go-home").on("click", function() {

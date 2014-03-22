@@ -68,7 +68,15 @@ h2 {
     left:60px;
     top:10px;
     display:inline-block;
+    -webkit-transition: color 0.1s linear;
+       -moz-transition: color 0.1s linear;
+        -ms-transition: color 0.1s linear;
+         -o-transition: color 0.1s linear;
+            transition: color 0.1s linear;
   }
+    #nav.open .left {
+      left:283px;
+    }
     #logo {
       width:40px;
       height:40px;
@@ -96,10 +104,15 @@ h2 {
             transition: all 0.1s ease;
   }
     #nav .menu#mobile {
+      border-top:4px solid #03acef;
+      position:fixed;
+      left:-40px;
+      z-index:1;
+      top:-17px;
       margin-top:0.8em;
-      position:static;
-      display:none;
-      height:0px;
+      height:100%;
+      width:0px;
+      background-color:#3a3a3a;
       overflow:hidden;
       -webkit-transition: all 0.3s ease;
          -moz-transition: all 0.3s ease;
@@ -107,12 +120,18 @@ h2 {
            -o-transition: all 0.3s ease;
               transition: all 0.3s ease;
     }
-      #mobile.open {
-        height:37px !important;
+      #nav .menu#mobile.open {
+        width:300px;
       }
     #nav .menu#mobile li {
-      display:inline-block;
+      display:block;
+      padding: 14px;
+      padding-left: 40px;
+      border-bottom:1px solid #03acef;
     }
+      #nav .menu#mobile li .sub {
+        padding-left:20px;
+      }
 
 
 /* 'over the fold' part */
@@ -352,15 +371,14 @@ h2 {
 
 /* responsiveness */
 @media (min-width:0px) and (max-width:680px) {
+  #footer {
+    display:none;
+  }
   #nav .menu li {
     display:none;
   }
   #rwd-menu {
     display:inline-block;
-  }
-  #nav .left {
-    top: -4px;
-    margin-left: 5px; 
   }
   #nav .menu#mobile {
     display:block;
