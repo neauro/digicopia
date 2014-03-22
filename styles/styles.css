@@ -123,14 +123,32 @@ h2 {
       #nav .menu#mobile.open {
         width:300px;
       }
-    #nav .menu#mobile li {
+    #nav .menu#mobile a {
+      width:100%;
       display:block;
+      color:#Fff;
+      text-decoration:none;
       padding: 14px;
-      padding-left: 40px;
+      padding-left: 73px;
       border-bottom:1px solid #03acef;
     }
-      #nav .menu#mobile li .sub {
-        padding-left:20px;
+      #nav .menu#mobile a:hover {
+        color:#03acef;
+      }
+      #nav .menu#mobile .sub {
+        padding-left:93px;
+      }
+      #nav .menu#mobile .active {
+        border-bottom: 2px solid #03ACEF;
+        border-top: 2px solid #03ACEF;
+        border-left: 47px solid #03ACEF;
+        padding-left: 45px;
+      }
+      #mobile #copy {
+        width:100%;
+        font-size: 11pt;
+        padding-left: 50px;
+        margin-top: 30px;
       }
 
 
