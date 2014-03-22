@@ -131,9 +131,10 @@ body {
         font-weight:lighter;
       }
     .p-img {
-      height:511px;
       background-color:#CECECE; 
       margin-bottom:0.5em;
+      max-width:96%;
+      height:auto;
     }
     .p-desc {
       padding:0.5em;
