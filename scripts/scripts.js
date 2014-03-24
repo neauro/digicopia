@@ -6,13 +6,8 @@ $(document).ready(function() {
 
   $(".mobile.overlay").on("click", function(e) {
     e.stopPropagation(); 
-    console.log("DEBUG: clicked mobile overlay");
     if (menu.hasClass("open")) {
-      console.log("DEBUG: menu has open class");
       menu.removeClass("open");
-    }
-    else {
-      console.log("DEBUG: menu does NOT have open class");
     }
   });
 
