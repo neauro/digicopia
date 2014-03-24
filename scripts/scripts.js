@@ -1,12 +1,30 @@
+var menu;
 $(document).ready(function() {
-  var menu = $("#mobile");
+  menu = $("#mobile");
   var scroll_speed = 1500;
   var offset = -($("#nav").height()*4);
-  var nav = $("#nav");
 
-  $("#rwd-menu").on("click", function() {
+  $(".close").on("click", function() {
+    console.log("DEBUG: close is clicked");
+    console.log(menu.attr("class"));
+    if ($(this).attr("id") != "rwd-menu") {
+      console.log("DEBUG: clicked thing is #rwd-menu");
+      if (menu.hasClass("open")) {
+        console.log("DEBUG: menu has open class");
+        menu.removeClass("open");
+      }
+      else {
+        console.log("DEBUG: menu does NOT have open class");
+      }
+    }
+    else {
+      console.log("DEBUG: clicked thing is not #rwd-menu");
+    }
+  });
+
+  $("#rwd-menu").on("click", function(e) {
+    e.stopPropagation();
     menu.toggleClass("open");
-    nav.toggleClass("open");
   });
 
   $(".go-home").on("click", function() {
