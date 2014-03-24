@@ -100,7 +100,7 @@ h2 {
          -o-transition: all 0.1s ease;
             transition: all 0.1s ease;
   }
-    #nav .menu#mobile {
+    #nav .menu.mobile {
       border-top:4px solid #03acef;
       position:fixed;
       left:-40px;
@@ -117,10 +117,10 @@ h2 {
            -o-transition: all 0.3s ease;
               transition: all 0.3s ease;
     }
-      #nav .menu#mobile.open {
+      #nav .menu.mobile.open {
         width:300px;
       }
-    #nav .menu#mobile a {
+    #nav .menu.mobile a {
       width:100%;
       display:block;
       color:#Fff;
@@ -129,24 +129,35 @@ h2 {
       padding-left: 73px;
       border-bottom:1px solid #03acef;
     }
-      #nav .menu#mobile a:hover {
+      #nav .menu.mobile a:hover {
         color:#03acef;
       }
-      #nav .menu#mobile .sub {
+      #nav .menu.mobile .sub {
         padding-left:93px;
       }
-      #nav .menu#mobile .active {
+      #nav .menu.mobile .active {
         border-bottom: 2px solid #03ACEF;
         border-top: 2px solid #03ACEF;
         border-left: 47px solid #03ACEF;
         padding-left: 45px;
       }
-      #mobile .copy {
+      .mobile .copy {
         width:100%;
         font-size: 11pt;
         padding-left: 50px;
         margin-top: 30px;
       }
+.mobile.overlay {
+  position:fixed;
+  top:0;
+  left:0;
+  display:none;
+  height:100%;
+  width:100%;
+}
+  .mobile.overlay.open {
+    display:block;
+  }
 
 
 /* 'over the fold' part */
@@ -395,7 +406,7 @@ h2 {
   #rwd-menu {
     display:inline-block;
   }
-  #nav .menu#mobile {
+  #nav .menu.mobile {
     display:block;
   }
   #logo {
