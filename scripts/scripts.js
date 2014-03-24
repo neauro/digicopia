@@ -15,23 +15,4 @@ $(document).ready(function() {
     e.stopPropagation();
     menu.toggleClass("open");
   });
-
-  $(".go-home").on("click", function() {
-    $('html, body').animate({
-      scrollTop: $("#container").offset().top-($("#nav").height()*4)
-    }, scroll_speed);
-  });
-
-  $(".go-work").on("click", function() {
-    $('html, body').animate({
-      scrollTop: $("#work").offset().top-($("#nav").height()*4)
-    }, scroll_speed);
-  });
-
-  $(".go-about").on("click", function() {
-    $('html, body').animate({
-      scrollTop: $("#like").offset().top-($("#nav").height())
-    }, scroll_speed);
-  });
-
 });
