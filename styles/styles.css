@@ -475,6 +475,9 @@ h2 {
   }
 }
 @media (min-width:0px) and (max-width:500px) {
+  .drop {
+    display:none;
+  }
   #footer .menu li {
     width: 109%;
     display: inline-block;
