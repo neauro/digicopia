@@ -213,6 +213,73 @@ body {
   }
 
 /* about page */
+#container.about {
+  padding-top:6em;
+  color:#3a3a3a;
+}
+  .name,
+  .contact {
+    font-size:24pt;
+  }
+  .stuff {
+    font-size:18pt;
+  }
+  .contact-wrapper {
+    margin-top:70px;
+  }
+  .a-header {
+    color:#3a3a3a;
+    font-family: Bebas;
+    border-left:9px solid #03acef;
+    padding-left:10px;
+    margin-bottom:10px;
+    font-size:48pt;
+  }
+  .resume {
+    position:absolute;
+    top:20px;
+    right:20px;
+    width:115px;
+    height:115px;
+    background-color:#3a3a3a;
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-size:12pt;
+    padding:10px;
+  }
+  .about-wrapper {
+    width:100%;
+    max-width:940px;
+    margin:0px auto;
+    margin-bottom:50px;
+  }
+ .contact-bit {
+    position:relative;
+   padding:20px;
+   min-height:356px;
+   width:100%;
+   background-color:#cecece;
+ }
+ .about-bit {
+   min-height:460px;
+   max-width:460px;
+   width:48%;
+   display:inline-block;
+   background-color:#CECECE;
+   font-size:13pt;
+   padding:20px;
+   padding-top:60px;
+   box-sizing:border-box;
+   vertical-align:top;
+ }
+   .about-bit p {
+     margin-bottom:10px;
+   }
+ .avatar {
+   background-image: url('../images/mathius.jpg');
+   background-size:cover;
+ }
 
 
 /* responsiveness */
@@ -229,6 +296,26 @@ body {
 @media (min-width:551px) and (max-width:1056px) {
   .portfolio-bit {
     width:30%;
+  }
+}
+
+/* about page rwd */
+@media (min-width:0px) and (max-width:510px) {
+  .about-bit {
+    display:block;
+    width:100%;
+  }
+  .about-wrapper {
+    max-width:300px;
+  }
+}
+@media (min-width:511px) and (max-width:810px) {
+  .about-bit {
+    display:block;
+    width:100%;
+  }
+  .about-wrapper {
+    max-width:460px;
   }
 }
 
