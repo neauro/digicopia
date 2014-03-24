@@ -212,6 +212,9 @@ body {
     right:20px;
   }
 
+/* about page */
+
+
 /* responsiveness */
 @media (min-width:0px) and (max-width:680px) {
   #p-left {
