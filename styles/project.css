@@ -235,10 +235,12 @@ body {
   .a-header {
     color:#3a3a3a;
     font-family: Bebas;
-    border-left:9px solid #03acef;
-    padding-left:10px;
-    margin-bottom:10px;
-    font-size:48pt;
+    border-left: 9px solid #03ACEF;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 48pt;
+    line-height: 38px;
+    padding-top: 6px;
   }
   .resume {
     position:absolute;
