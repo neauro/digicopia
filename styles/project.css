@@ -121,6 +121,8 @@ body {
       border-left:6px solid #03acef;
       padding-left:0.5em;
       margin-bottom:0.5em;
+      line-height: 18px;
+      padding-top: 1px;
     }
       .p-header h3 {
         font-size:16pt;
@@ -129,6 +131,7 @@ body {
       .p-header h4 {
         font-size:24pt;
         font-weight:lighter;
+        padding-top:8px;
       }
     .p-img {
       background-color:#CECECE; 
